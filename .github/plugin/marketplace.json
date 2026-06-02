@@ -1,0 +1,24 @@
+{
+  "name": "zlink-cloudtech-agent-plugins",
+  "metadata": {
+    "description": "Zlink Cloudtech Agent Plugins",
+    "version": "0.1.0"
+  },
+  "owner": {
+    "name": "zlink-cloudtech",
+    "email": "wanghongqi@zlinkcloudtech.com"
+  },
+  "plugins": [
+    {
+      "name": "superpowers-dev",
+      "source": {
+        "source": "github",
+        "repo": "zlink-cloudtech/superpowers",
+	"ref": "main"
+      },
+      "description": "superpowers develop version",
+      "repository": "https://github.com/zlink-cloudtech/superpowers.git",
+      "license": "MIT"
+    }
+  ]
+}
