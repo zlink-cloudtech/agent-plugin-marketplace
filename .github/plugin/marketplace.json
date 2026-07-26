@@ -18,6 +18,16 @@
       },
       "description": "superpowers develop version",
       "strict": true
+    },
+    {
+      "name": "agent-plugin-cli-dev",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zlink-cloudtech/agent-plugin-cli.git",
+        "ref": "main"
+      },
+      "description": "agent-plugin-cli development version",
+      "strict": true
     }
   ]
 }
