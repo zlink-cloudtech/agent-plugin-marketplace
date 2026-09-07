@@ -3,6 +3,6 @@
   "version": "2.0.0",
   "target": "claude-marketplace",
   "sourceCommit": "aeb0dd2edb37dca0d63fc0a8c93cf23e2f3e7244",
-  "builtAt": "2026-09-07T14:17:35.438Z",
-  "artifactHash": "sha256:4ecf81923a2ed55e78b25604f149a188804f050be54c0d2cec7462eeef6047c5"
+  "builtAt": "2026-09-07T14:39:06.943Z",
+  "artifactHash": "sha256:e1b32d730f4be62d2d4852fcae14f6b4d9a04ad8f961e338c31c42d56d032ca8"
 }
