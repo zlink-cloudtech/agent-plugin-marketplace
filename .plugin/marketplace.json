@@ -31,7 +31,7 @@
     },
     {
       "name": "agent-plugins",
-      "source": "./artifacts/agent-plugins",
+      "source": "./plugins/agent-plugins",
       "description": "PRD workflow + system design skills artifact",
       "strict": true
     }

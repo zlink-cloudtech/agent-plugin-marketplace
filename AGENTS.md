@@ -12,7 +12,7 @@ The actual source of truth for plugin behavior, schema, build logic, and validat
 
 - `marketplace.json`: marketplace catalog and plugin source references
 - `.claude-plugin/marketplace.json`: Claude-compatible entrypoint used by plugin consumers
-- `artifacts/<plugin-name>/`: generated installable artifact directories
+- `plugins/<plugin-name>/`: generated installable artifact directories
 - release metadata and artifact indexing for public installation
 
 See [README.md](README.md) and [marketplace.json](marketplace.json) for the repo's canonical overview and active catalog entries.
@@ -40,7 +40,7 @@ then the correct action is to work in the upstream source repository, rebuild th
 
 2. Do not create implementation code here unless the task is explicitly about the distribution layer itself.
 
-3. Keep artifacts in `artifacts/` as generated output, not as hand-authored source code.
+3. Keep artifacts in `plugins/` as generated output, not as hand-authored source code.
 
 4. Preserve stable plugin names, URLs, refs, and strict install semantics when editing catalog data.
 
@@ -57,7 +57,7 @@ then the correct action is to work in the upstream source repository, rebuild th
 ## Release flow
 
 ```text
-source repo -> build artifact -> publish under artifacts/ -> register in marketplace.json -> Claude installs from catalog
+source repo -> build artifact -> publish under plugins/ -> register in marketplace.json -> Claude installs from catalog
 ```
 
 ## Boundaries

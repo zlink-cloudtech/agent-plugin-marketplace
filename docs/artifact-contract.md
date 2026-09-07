@@ -24,7 +24,7 @@ This repository follows an artifact-first distribution model.
 Generated plugin artifacts live under:
 
 ```text
-artifacts/<plugin-name>/
+plugins/<plugin-name>/
 ```
 
 Each artifact should include a platform-native install surface plus `build-meta.json`. For Claude-compatible plugins, the artifact root must include `.claude-plugin/plugin.json`.

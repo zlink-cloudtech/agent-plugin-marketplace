@@ -73,7 +73,7 @@ This marketplace currently publishes plugin artifacts for the following workflow
 ```text
 .github/plugin/marketplace.json
 .claude-plugin/marketplace.json
-artifacts/
+plugins/
   agent-plugins/
 ```
 
