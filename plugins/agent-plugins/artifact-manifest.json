@@ -2,7 +2,7 @@
   "name": "agent-plugins",
   "version": "2.0.0",
   "artifactType": "claude-marketplace",
-  "sourceRepo": "agent-plugins",
+  "sourceRepo": "https://github.com/zlink-cloudtech/agent-plugins",
   "buildMeta": {
     "plugin": "agent-plugins",
     "version": "2.0.0",
