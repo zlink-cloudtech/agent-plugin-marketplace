@@ -12,12 +12,12 @@ Typical usage:
 
 ```bash
 claude plugin marketplace add zlink-cloudtech/agent-plugin-marketplace
-claude plugin install prd@zlink-cloudtech-agent-plugins
+claude plugin install agent-plugins@zlink-cloudtech-agent-plugins
 ```
 
 ```bash
 copilot plugin marketplace add zlink-cloudtech/agent-plugin-marketplace
-copilot plugin install prd@zlink-cloudtech-agent-plugins
+copilot plugin install agent-plugins@zlink-cloudtech-agent-plugins
 ```
 
 ## Quick start
@@ -52,19 +52,19 @@ copilot plugin marketplace browse zlink-cloudtech-agent-plugins
 
 ```bash
 # Claude Code
-claude plugin install prd@zlink-cloudtech-agent-plugins
+claude plugin install agent-plugins@zlink-cloudtech-agent-plugins
 
 # GitHub Copilot CLI
-copilot plugin install prd@zlink-cloudtech-agent-plugins
+copilot plugin install agent-plugins@zlink-cloudtech-agent-plugins
 ```
 
-The plugin name is `prd`, and the marketplace name is `zlink-cloudtech-agent-plugins`.
+The plugin name is `agent-plugins`, and the marketplace name is `zlink-cloudtech-agent-plugins`.
 
 ## Available plugins
 
 This marketplace currently publishes plugin artifacts for the following workflows:
 
-- `prd` — product requirements workflow and planning tooling
+- `agent-plugins` — PRD workflow + system design skills (requirements clarification, PRD quality review, technical research, and multi-service technical specification)
 - `superpowers-dev` — development build of the Superpowers plugin
 - `agent-plugin-cli-dev` — development build of the CLI plugin
 
@@ -74,7 +74,7 @@ This marketplace currently publishes plugin artifacts for the following workflow
 .github/plugin/marketplace.json
 .claude-plugin/marketplace.json
 artifacts/
-  agent-plugin-prd/
+  agent-plugins/
 ```
 
 The `marketplace.json` files define the catalog metadata and plugin source mappings that clients consume when they add the marketplace and install plugins.
@@ -90,7 +90,7 @@ This repository is the distribution layer, not the source of truth for plugin lo
 
 ## Related projects
 
-- [agent-plugin-prd](https://github.com/zlink-cloudtech/agent-plugin-prd)
+- [agent-plugins](https://github.com/zlink-cloudtech/agent-plugins)
 - [superpowers](https://github.com/zlink-cloudtech/superpowers)
 - [agent-plugin-cli](https://github.com/zlink-cloudtech/agent-plugin-cli)
 

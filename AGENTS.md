@@ -6,7 +6,7 @@ Marketplace and release artifact registry for Claude-compatible plugins.
 
 This repository is not the implementation home for plugin logic. It is the consumer-facing distribution layer that exposes installable plugin artifacts and catalog metadata.
 
-The actual source of truth for plugin behavior, schema, build logic, and validation lives in upstream repos such as `agent-plugin-prd`, `superpowers`, and similar plugin authoring repositories.
+The actual source of truth for plugin behavior, schema, build logic, and validation lives in upstream repos such as `agent-plugins`, `superpowers`, and similar plugin authoring repositories.
 
 ## What this repo owns
 

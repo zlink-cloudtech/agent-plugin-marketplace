@@ -2,7 +2,7 @@
   "name": "zlink-cloudtech-agent-plugins",
   "metadata": {
     "description": "Zlink Cloudtech Agent Plugins",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "owner": {
     "name": "zlink-cloudtech",
@@ -30,9 +30,9 @@
       "strict": true
     },
     {
-      "name": "prd",
-      "source": "./artifacts/agent-plugin-prd",
-      "description": "PRD workflow plugin artifact",
+      "name": "agent-plugins",
+      "source": "./artifacts/agent-plugins",
+      "description": "PRD workflow + system design skills artifact",
       "strict": true
     }
   ]

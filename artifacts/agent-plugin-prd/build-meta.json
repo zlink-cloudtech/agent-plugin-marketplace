@@ -1,8 +1,0 @@
-{
-  "plugin": "agent-plugin-prd",
-  "version": "1.1.0",
-  "target": "claude-marketplace",
-  "sourceCommit": "1a267a246ff43eac524c6dde9412cdfb2b710f60",
-  "builtAt": "2026-08-18T17:21:25.441Z",
-  "artifactHash": "sha256:27a88895ec74bc6e2030aa23ecfd060aeeb4d00a47f614bd9c6e5abddff38ec8"
-}
